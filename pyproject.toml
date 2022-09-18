@@ -1,0 +1,14 @@
+[build-system]
+requires = ['setuptools>=42.0', "wheel"]
+build-backend = "setuptools.build_meta"
+
+# python will look only in the tests folder for testing, it should be created
+[tool.pytest.ini_options]   
+testpaths = [
+    "tests"
+    ]
+
+# only check on the src folder only for tools
+[tool.mypy]
+mypy_path = "src"
+ignore_missing_imports = true
