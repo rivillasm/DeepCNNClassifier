@@ -1,1 +1,8 @@
-key: val
+AUGMENTATION: True
+IMAGE_SIZE: [224,224,3]   #vgg16 expects this size
+BATCH_SIZE: 16
+INCLUDE_TOP: False #True means use CNN+ANN, False for CNN only
+EPOCHS: 1
+CLASSES: 2
+WEIGHTS: imagenet  #VGG16 is already trained in the imagenet dataset, so calling these weights
+LEARNING_RATE: 0.01
