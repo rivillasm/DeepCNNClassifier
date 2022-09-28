@@ -137,3 +137,4 @@ tb_running_log_dir/validation/events.out.tfevents.1664327036.DESKTOP-G68GHEQ.220
 tb_running_log_dir/train/events.out.tfevents.1664287155.DESKTOP-G68GHEQ.22044.1.v2
 tb_running_log_dir/train/events.out.tfevents.1664278429.DESKTOP-G68GHEQ.22044.0.v2
 artifacts/training/model.h5
+artifacts/prepare_callbacks/checkpoint_dir/model.h5
