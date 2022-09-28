@@ -13,8 +13,6 @@ def main():
     prepare_base_model.update_base_model()
  
 
-
-
 if __name__ == "__main__":
     try:
         logger.info(f"\n\n>>>>>>>>> stage {STAGE_NAME} started <<<<<<<<<")
