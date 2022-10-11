@@ -144,3 +144,4 @@ artifacts/prepare_base_model/base_model_updated.h5
 .gitignore
 tb_running_log_dir/train/events.out.tfevents.1664395684.DESKTOP-G68GHEQ.3728.0.v2
 tb_running_log_dir/validation/events.out.tfevents.1664679736.DESKTOP-G68GHEQ.12612.1.v2
+tb_running_log_dir/train/events.out.tfevents.1664675438.DESKTOP-G68GHEQ.12612.0.v2
